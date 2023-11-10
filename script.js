@@ -4,11 +4,11 @@ var dateDiffInDays = function (date1, date2) {
 	let arr1 = date1.split('-');
 	let arr2 = date2.split('-');
 	let days = 0;
-	for(let i = 0; i < arr1.length; i++){
-		if(arr1[i] > arr2[i]){
-			return -1;
-		}
-	}
+	// for(let i = 0; i < arr1.length; i++){
+	// 	if(arr1[i] > arr2[i]){
+	// 		return -1;
+	// 	}
+	// }
 
 	let y1 = new Date(date1).getTime();
 	let y2 = new Date(date2).getTime();
